@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <title>Корзина</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <img
+                    src="assets/logo.svg"
+                    alt="Логотип Рона"
+                    class="header__logo"
+                />
+                <div class="header__main">
+                    <nav class="header__nav">
+                        <a href="#" class="header-nav__item">Каталог</a>
+                        <a href="#" class="header-nav__item">
+                            <div class="header-nav-item__icon-wrapper">
+                                <div class="header-nav-item__indicator">
+                                    0
+                                </div>
+                                <svg
+                                    class="header-nav-item__icon"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <mask
+                                        id="mask0_2_18"
+                                        style="mask-type: alpha"
+                                        maskUnits="userSpaceOnUse"
+                                        x="0"
+                                        y="0"
+                                        width="24"
+                                        height="24"
+                                    >
+                                        <rect
+                                            width="24"
+                                            height="24"
+                                            fill="#D9D9D9"
+                                        />
+                                    </mask>
+                                    <g mask="url(#mask0_2_18)">
+                                        <path
+                                            d="M9.50416 20C9.09128 20 8.73783 19.8531 8.44381 19.5594C8.14979 19.2656 8.00277 18.9125 8.00277 18.5C8.00277 18.0875 8.14979 17.7344 8.44381 17.4406C8.73783 17.1469 9.09128 17 9.50416 17C9.91704 17 10.2705 17.1469 10.5645 17.4406C10.8585 17.7344 11.0055 18.0875 11.0055 18.5C11.0055 18.9125 10.8585 19.2656 10.5645 19.5594C10.2705 19.8531 9.91704 20 9.50416 20ZM17.0111 20C16.5982 20 16.2448 19.8531 15.9507 19.5594C15.6567 19.2656 15.5097 18.9125 15.5097 18.5C15.5097 18.0875 15.6567 17.7344 15.9507 17.4406C16.2448 17.1469 16.5982 17 17.0111 17C17.424 17 17.7774 17.1469 18.0715 17.4406C18.3655 17.7344 18.5125 18.0875 18.5125 18.5C18.5125 18.9125 18.3655 19.2656 18.0715 19.5594C17.7774 19.8531 17.424 20 17.0111 20ZM8.86607 8L10.6677 11.75H15.9226L17.987 8H8.86607ZM8.15291 6.5H19.2256C19.5134 6.5 19.7324 6.62813 19.8825 6.88438C20.0326 7.14062 20.0389 7.4 19.9013 7.6625L17.2363 12.4625C17.0987 12.7125 16.9141 12.9063 16.6827 13.0438C16.4512 13.1813 16.1978 13.25 15.9226 13.25H10.3299L9.50416 14.75H18.5125V16.25H9.50416C8.94114 16.25 8.51575 16.0031 8.22798 15.5094C7.94022 15.0156 7.9277 14.525 8.19045 14.0375L9.20388 12.2L6.50139 6.5H5V5H7.43975L8.15291 6.5Z"
+                                        />
+                                    </g>
+                                </svg>
+                            </div>
+                            Корзина
+                        </a>
+                    </nav>
+                    <p class="header__phone">
+                        <span class="fz22 red">+7 (999) 888-77-66</span
+                        ><br />
+                        Мы на связи!
+                    </p>
+                </div>
+                <div class="burger-icon">
+                    <div class="burger-icon__line"></div>   
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="modal-wrapper">
+        <form action="" class="modal">
+            <div class="modal-header">
+                <h2 class="modal-title">Форма заказа</h2>
+                <svg class="modal-close-btn" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask0_33_7" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="25" height="25">
+                    <rect x="0.796387" y="0.0473022" width="24" height="24" fill="#D9D9D9"/>
+                    </mask>
+                    <g mask="url(#mask0_33_7)">
+                    <path d="M12.7962 13.4473L7.89619 18.3473C7.71286 18.5306 7.47952 18.6223 7.19619 18.6223C6.91286 18.6223 6.67952 18.5306 6.49619 18.3473C6.31286 18.164 6.22119 17.9306 6.22119 17.6473C6.22119 17.364 6.31286 17.1306 6.49619 16.9473L11.3962 12.0473L6.49619 7.14729C6.31286 6.96396 6.22119 6.73062 6.22119 6.44729C6.22119 6.16396 6.31286 5.93062 6.49619 5.74729C6.67952 5.56396 6.91286 5.47229 7.19619 5.47229C7.47952 5.47229 7.71286 5.56396 7.89619 5.74729L12.7962 10.6473L17.6962 5.74729C17.8795 5.56396 18.1129 5.47229 18.3962 5.47229C18.6795 5.47229 18.9129 5.56396 19.0962 5.74729C19.2795 5.93062 19.3712 6.16396 19.3712 6.44729C19.3712 6.73062 19.2795 6.96396 19.0962 7.14729L14.1962 12.0473L19.0962 16.9473C19.2795 17.1306 19.3712 17.364 19.3712 17.6473C19.3712 17.9306 19.2795 18.164 19.0962 18.3473C18.9129 18.5306 18.6795 18.6223 18.3962 18.6223C18.1129 18.6223 17.8795 18.5306 17.6962 18.3473L12.7962 13.4473Z" fill="#1C1B1F"/>
+                    </g>
+                </svg>
+            </div>
+            <div class="modal-field">
+                <label for="fullname" class="modal-field__name">ФИО</label>
+                <input type="text" id="fullname" class="modal-field__input" required>
+            </div>
+            <div class="modal-field">
+                <label for="phone_number" class="modal-field__name">Номер телефона</label>
+                <input type="text" id="phone_number" class="modal-field__input" required>
+            </div>
+            <div class="modal-field">
+                <label for="email" class="modal-field__name">Электронная почта</label>
+                <input type="email" id="email" class="modal-field__input" required>
+            </div>
+            <button type="submit" class="btn modal-submit-btn">Отправить заявку</button>
+        </form>
+    </div>
+    <main>
+        <section class="cart">
+            <div class="container">
+                <h1 class="cart__title">Корзина</h1>
+                <p class="header-total-price">Итоговая цена <span class="red fw700">160000 руб</span></p>
+                <div class="cart__inner"></div>
+                <div class="total-block">
+                    <p class="total-price">Итогая цена: <span class="red"></span>160000 руб</p>
+                    <form action="" method="POST">
+                        <button type="submit" class="btn submit-btn">Отправить заявку</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>
